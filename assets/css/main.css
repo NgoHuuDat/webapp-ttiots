@@ -71,12 +71,51 @@ body{
     margin: 4px 0;
 }
 
-/* footer */
-.footer{
+/* navbar */
+.navbar{
     width: 100%;
     height: 6%;
-    background-color: rgba(0,0,0,0.35);
+    background-color: white;
     margin-top: 8px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.navbar__control{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__control button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    transition: linear 0.3s;
+}
+
+.navbar__control button:hover{
+    background-color: blue;
+}
+
+.navbar__home{
+    padding: 0 8px;
+}
+
+.navbar__bedroom{
+    padding: 0 8px;
+}
+
+.navbar__kitchen{
+    padding: 0 8px;
+}
+
+.navbar__gara{
+    padding: 0 8px;
 }
